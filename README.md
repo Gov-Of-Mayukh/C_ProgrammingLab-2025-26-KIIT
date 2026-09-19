@@ -7,7 +7,9 @@ The programs cover basic C programming concepts, along with functions, structure
 ## Topics Covered
 
 * Basic C Programming
+* Arrays(1D, 2D, Matrices)
 * Functions
+* Recursion
 * Structures
 * Enumerations (enum)
 * Unions
