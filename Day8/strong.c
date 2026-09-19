@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int fact(int x){
+	int fact=1;
+	for(int i=1; i<=x; i++){
+		fact*=i;
+	}
+	return fact;
+}
+
+void main(){
+	int shw, r, fac, sum;
+	for(int i=1; i<=999999; i++){
+		shw=i;
+		sum=0;
+		while(shw>0){
+			r=shw%10;
+			fac=fact(r);
+			sum+=fac;
+			shw/=10;
+		}
+    	if(sum==i)
+	    	printf("\n%d",sum);
+	}
+	printf("\n\n");
+}

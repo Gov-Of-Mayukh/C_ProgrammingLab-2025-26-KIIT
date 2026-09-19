@@ -1,0 +1,47 @@
+#include<stdio.h>
+void main(){
+	int ch;
+	printf("Enter Month Number: ");
+	scanf("%d",&ch);
+	switch(ch){
+		case 1:
+			printf("\nJanuary\n\n");
+		break;
+		case 2:
+			printf("\nFebruary\n\n");
+		break;
+		case 3:
+			printf("\nMarch\n\n");
+		break;
+		case 4:
+			printf("\nApril\n\n");
+		break;
+		case 5:
+			printf("\nMay\n\n");
+		break;
+		case 6:
+			printf("\nJune\n\n");
+		break;
+		case 7:
+			printf("\nJuly\n\n");
+		break;
+		case 8:
+			printf("\nAugust\n\n");
+		break;
+		case 9:
+			printf("\nSeptember\n\n");
+		break;
+		case 10:
+			printf("\nOctober\n\n");
+		break;
+		case 11:
+			printf("\nNovember\n\n");
+		break;
+		case 12:
+			printf("\nDecember\n\n");
+		break;
+		default:
+			printf("\nInvalid Input!!\n\n");
+
+	}
+}
